@@ -1,0 +1,22 @@
+{
+  "name": "pfh",
+  "homepage": "https://github.com/rachedi/pfh",
+  "authors": [
+    "pfhAdmin <kingzakid@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/assets/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
