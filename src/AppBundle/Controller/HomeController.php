@@ -8,13 +8,15 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 class HomeController extends Controller
 {
     /**
-     * @Route("/")
+     * @Route("/", name="homepage")
      */
     public function videoAction()
     {
-        return $this->render('AppBundle:Home:video.html.twig', array(
-            // ...
-        ));
+        $test = "haha salut !";
+        return $this->render(
+            'home/video.html.twig', 
+            array('variableTest' => $test)
+        );
     }
 
 }
